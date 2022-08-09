@@ -1,4 +1,4 @@
-# Discord Threads To Canny Post To Clickup Task Wizard
+# Discord Thread To Canny Post To Clickup Task Wizard
 Stop letting ideas slip through the cracks. Collect, and organize feedback and feature requests in a dedicated customer feedback tool. Discord, Canny & ClickUp help to collect and organize feature requests to better understand customer needs and prioritize the roadmap.
 
 To create a single place for all customer feedback. Required to save time managing all the feedback while keeping customers in the loop. and to get an organized list of feedback to inform for the roadmap.
