@@ -21,6 +21,9 @@ To create a single place for all customer feedback. Required to save time manag
 
 # Screenshots
 
+![DicsordFeedback](https://raw.githubusercontent.com/AshutoshDaveDhiWise/react-wizards-discord-canny-clickup/main/Screenshot%20from%202022-08-06%2017-07-33.png)
+![CannyFeedback](https://raw.githubusercontent.com/AshutoshDaveDhiWise/react-wizards-discord-canny-clickup/main/Screenshot%20from%202022-08-06%2017-08-10.png)
+
 # Setup
 
 #### 1. Clone the repository
