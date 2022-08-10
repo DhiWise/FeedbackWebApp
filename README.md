@@ -38,8 +38,10 @@ $ cd figtion
 #### 2. Set Account Tokens In Following Files
 
 Discord - src/service/api.js
+
 Canny - src/service/api.js, src/constants/cannyUpHeaderCreds
-ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds,api.js
+
+ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
 
 ## Version of Technologies
 
