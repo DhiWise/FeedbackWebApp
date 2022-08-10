@@ -26,7 +26,7 @@ To create a single place for all customer feedback. Required to save time manag
 #### 1. Clone the repository
 ```sh
 $ git clone https://github.com/.....
-$ cd figtion
+$ cd react-wizards-discord-canny-clickup
 ```
 ## Install Dependencies
 
