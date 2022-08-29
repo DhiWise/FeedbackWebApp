@@ -106,6 +106,18 @@ ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
 15. postcss - `8.4.6`
 16. tailwindcss - `3.0.18`
 
+## Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+      npm run storybook
+
 ## License
 
 MIT License
