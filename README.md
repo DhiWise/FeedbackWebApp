@@ -21,8 +21,8 @@ To create a single place for all customer feedback. Required to save time manag
 
 # Screenshots
 
-![DicsordFeedback](https://raw.githubusercontent.com/AshutoshDaveDhiWise/react-wizards-discord-canny-clickup/main/Screenshot%20from%202022-08-06%2017-07-33.png)
-![CannyFeedback](https://raw.githubusercontent.com/AshutoshDaveDhiWise/react-wizards-discord-canny-clickup/main/Screenshot%20from%202022-08-06%2017-08-10.png)
+![DicsordFeedback](Screenshot%20from%202022-08-06%2017-07-33.png)
+![CannyFeedback](Screenshot%20from%202022-08-06%2017-08-10.png)
 
 # Setup
 
@@ -37,14 +37,29 @@ $ cd react-wizards-discord-canny-clickup
 ## Running the App
 
     npm start
+    
+## Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+     npm run storybook
 
 #### 2. Set Account Tokens In Following Files
 
-Discord - src/service/api.js
+You can find all the setup and authorization tokens in browser cURL for ClickUp and Discord.
 
-Canny - src/service/api.js, src/constants/cannyUpHeaderCreds
+1) Add ClickUp SubcategoryId in ClickUp method at URL and Add ClickUp token in same method header in src/service/api.js 
+    and setup required ids in src/constants/clickUpHeaderCreds
 
-ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
+2) Create Account for Canny on https://canny.io/ and setup required keys in src/constants/cannyUpHeaderCreds
+
+3) Add your Discord channel id in URL, Authorization token and X-Super-Properties in src/service/api.js  
 
 ## Version of Technologies
 
@@ -105,18 +120,6 @@ ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
 14. autoprefixer - `10.4.2`
 15. postcss - `8.4.6`
 16. tailwindcss - `3.0.18`
-
-## Running the storybook
-
-We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
-
-## Install and Initializes
-
-     npx storybook init
-
-## Run the Storybook
-
-      npm run storybook
 
 ## License
 
