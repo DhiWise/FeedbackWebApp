@@ -52,11 +52,14 @@ We have detected common components and have generated possible variants of it. T
 
 #### 2. Set Account Tokens In Following Files
 
-Discord - src/service/api.js
+You can find all the setup and authorization tokens in browser cURL for ClickUp and Discord.
 
-Canny - src/service/api.js, src/constants/cannyUpHeaderCreds
+1) Add ClickUp SubcategoryId in ClickUp method at URL and Add ClickUp token in same method header in src/service/api.js 
+    and setup required ids in src/constants/clickUpHeaderCreds
 
-ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
+2) Create Account for Canny on https://canny.io/ and setup required keys in src/constants/cannyUpHeaderCreds
+
+3) Add your Discord channel id in URL, Authorization token and X-Super-Properties in src/service/api.js  
 
 ## Version of Technologies
 
