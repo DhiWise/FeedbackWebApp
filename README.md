@@ -37,6 +37,18 @@ $ cd react-wizards-discord-canny-clickup
 ## Running the App
 
     npm start
+    
+## Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+     npm run storybook
 
 #### 2. Set Account Tokens In Following Files
 
@@ -105,18 +117,6 @@ ClickUp - src/service/api.js, src/constants/clickUpHeaderCreds
 14. autoprefixer - `10.4.2`
 15. postcss - `8.4.6`
 16. tailwindcss - `3.0.18`
-
-## Running the storybook
-
-We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
-
-## Install and Initializes
-
-     npx storybook init
-
-## Run the Storybook
-
-      npm run storybook
 
 ## License
 
