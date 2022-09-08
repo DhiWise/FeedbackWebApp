@@ -47,7 +47,7 @@ const DesktopOnePage = () => {
       });
   }
   function handleNavigate1() {
-    navigate("/desktoptwo");
+    navigate("/canny-feedbacks");
   }
 
   return (
@@ -79,7 +79,7 @@ const DesktopOnePage = () => {
           <Column className="items-center w-[100%]">
             <Row className="bg-gray_100 border border-gray_300 border-solid items-center xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] w-[100%]">
               <Text className="font-normal lg:ml-[11px] xl:ml-[13px] 2xl:ml-[15px] 3xl:ml-[18px] my-[4px] not-italic lg:text-[10px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] text-bluegray_700 w-[650px]">
-                Title
+                Thread Number
               </Text>
               <Text className="font-normal lg:ml-[17px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] my-[4px] not-italic lg:text-[10px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] text-bluegray_700 w-[700px]">
                 Description

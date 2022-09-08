@@ -12,7 +12,7 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/desktoptwo">DesktopTwo</Link>
+          <Link to="/canny-feedbacks">Canny Feedbacks</Link>
         </li>
         <li>
           <Link to="/">DesktopOne</Link>
