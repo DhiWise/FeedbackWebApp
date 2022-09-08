@@ -52,7 +52,7 @@ We have detected common components and have generated possible variants of it. T
 
 #### 2. Set Account Tokens In Following Files
 
-You can find all the setup and authorization tokens in browser cURL for ClickUp and Discord.
+Go to https://cors-anywhere.herokuapp.com/corsdemo and click on "Request temporary access to the demo server" to avoid cors issues while calling APIs from the browser, you can find all the setup and authorization tokens in browser cURL for ClickUp and Discord.
 
 1) Add ClickUp SubcategoryId in ClickUp method at URL and Add ClickUp token in same method header in src/service/api.js 
     and setup required ids in src/constants/clickUpHeaderCreds
