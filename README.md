@@ -28,8 +28,8 @@ To create a single place for all customer feedback. Required to save time manag
 
 #### 1. Clone the repository
 ```sh
-$ git clone https://github.com/.....
-$ cd react-wizards-discord-canny-clickup
+$ git clone https://github.com/DhiWise/FeedbackWebApp
+$ cd FeedbackWebApp
 ```
 ## Install Dependencies
 
